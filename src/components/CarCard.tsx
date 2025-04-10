@@ -1,7 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';  // Import Link from react-router-dom
+import { Link } from 'react-router-dom';
 import { Settings, Fuel, Calendar, Activity } from 'lucide-react';
 import { FaWhatsapp } from 'react-icons/fa';
+import { Car } from '../types';
 
 interface CarCardProps {
   car: Car;
@@ -17,8 +18,13 @@ const CarCard = ({ car }: CarCardProps) => {
     }).format(price);
   };
 
+  const generateWhatsAppMessage = () => {
+    const message = `Hello, I'm interested in this car:\n\n${car.year} ${car.title}\n${car.transmission}, ${car.fuelType}, ${car.mileage} km\nCondition: ${car.condition}\nPrice: ${formatPrice(car.price)}\n\nImage: ${window.location.origin}/${car.image}\n\nCould you tell me more about it?`;
+    return encodeURIComponent(message);
+  };
+
   return (
-    <div className="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-[1.02] transition-transform duration-300">
+    <div className="bg-blue-100 rounded-xl shadow-lg overflow-hidden transform hover:scale-[1.02] transition-transform duration-300">
       <Link to={`/car/${car.id}`} className="relative cursor-pointer">
         <img 
           src={car.image} 
@@ -55,13 +61,17 @@ const CarCard = ({ car }: CarCardProps) => {
           </div>
         </div>
 
-        <div className="mt-4 bg-gray-100 p-4 rounded-md">
-          {/* Center the WhatsApp button */}
+        <div className="mt-5 bg-yellow-200 p-4 rounded-md">
           <div className="flex justify-center">
-            <Link to={`https://wa.me/${car.whatsappLink}`} className="flex items-center space-x-2 text-green-500 hover:text-green-700">
-              <FaWhatsapp className="h-5 w-5" />
-              <span>Inquire via WhatsApp</span>
-            </Link>
+            <a
+              href={`https://wa.me/254725772082?text=${generateWhatsAppMessage()}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center space-x-2 text-green-900 hover:text-green-700"
+            >
+              <FaWhatsapp className="h-6 w-6" />
+              <span>Inquire Via WhatsApp</span>
+            </a>
           </div>
         </div>
       </div>

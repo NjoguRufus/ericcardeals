@@ -1,6 +1,8 @@
 // src/types.ts
 
 export interface Car {
+  whatsappLink: any;
+  id: any;
   image: string;
   title: string;
   price: number;
