@@ -181,7 +181,7 @@ const CarDetailPage = () => {
         <div className="w-full lg:w-1/3 bg-gray-800 rounded-lg p-6 shadow-md">
           <div className="flex flex-col items-center">
             <img
-              src="/assets/logo.png"
+              src="../assets/logo.png"
               alt="Logo"
               className="w-24 h-24 object-cover rounded-full mb-6"
             />
