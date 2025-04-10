@@ -181,7 +181,7 @@ const CarDetailPage = () => {
         <div className="w-full lg:w-1/3 bg-gray-800 rounded-lg p-6 shadow-md">
           <div className="flex flex-col items-center">
             <img
-              src="../assets/logo.png"
+              src="/assets/logo.png"
               alt="Logo"
               className="w-24 h-24 object-cover rounded-full mb-6"
             />
@@ -199,7 +199,7 @@ const CarDetailPage = () => {
               className="flex items-center justify-center bg-blue-500 hover:bg-blue-600 text-white py-3 px-6 rounded-lg w-full mb-6 text-lg"
             >
               <FaPhoneAlt className="mr-3" />
-              Call Now
+              Call Us Now
             </a>
 
             {/* Contact Form */}
