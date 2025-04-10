@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/assets/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eric Car Deals</title>
+    <style>
+      body {
+        background-color: #121212; /* Dark background */
+        color: white; /* White text for contrast */
+        font-family: Arial, sans-serif;
+      }
+
+      .loader-wrapper {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #121212;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+      }
+
+      .logo-loader {
+        width: 150px; /* Larger logo size */
+        height: auto;
+        animation: breathe 2s ease-in-out infinite;
+      }
+
+      @keyframes breathe {
+        0% { transform: scale(1); opacity: 0.8; }
+        50% { transform: scale(1.1); opacity: 1; }
+        100% { transform: scale(1); opacity: 0.8; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="loader-wrapper" id="loader">
+      <img src="/assets/logo.png" alt="Loading..." class="logo-loader" />
+    </div>
+
+    <div id="root"></div>
+
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      window.addEventListener("load", () => {
+        const loader = document.getElementById("loader");
+        if (loader) loader.style.display = "none"; // Hide the loader after the page loads
+      });
+    </script>
+  </body>
+</html>

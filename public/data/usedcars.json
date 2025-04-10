@@ -1,0 +1,55 @@
+[
+  {
+    "id": "prado-tx",
+    "title": "Toyota Prado TX",
+    "price": 5000000,
+    "image": "/images/usedcars/prado-tx.jpg",
+    "additionalImages": [
+      "/images/usedcars/tx.jpg",
+      "/images/usedcars/tx2.jpg",
+      "/images/usedcars/tx3.jpg"
+    ],
+    "transmission": "Automatic",
+    "fuelType": "Diesel",
+    "year": 2020,
+    "mileage": 35000,
+    "description": "A reliable SUV with great off-road capabilities.",
+    "features": [
+      "Leather Seats",
+      "Sunroof",
+      "Bluetooth"
+    ],
+    "condition": "Used"
+  },
+  {
+    "id": 1744236911627,
+    "year": "2000",
+    "make": "lambo",
+    "model": "lambo",
+    "bodyType": "big",
+    "mileage": "20022",
+    "transmission": "manual",
+    "condition": "used",
+    "engineSize": "2000",
+    "driveType": "manual",
+    "fuelType": "petrol",
+    "color": "black",
+    "specs": {
+      "Year": "2000",
+      "Make": "lambo",
+      "Model": "lambo",
+      "Body Type": "big",
+      "Mileage": "20022",
+      "Transmission": "manual",
+      "Condition": "used",
+      "Engine Size": "2000",
+      "Drive Type": "manual",
+      "Fuel Type": "petrol",
+      "Color": "black"
+    },
+    "features": [
+      "none"
+    ],
+    "image": "/images/usedcars/264176ade125e2fd008aa52fa2a576e7"
+  }
+]

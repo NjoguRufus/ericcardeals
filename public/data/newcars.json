@@ -1,0 +1,72 @@
+[
+  {
+    "id": "benz-glc220d-2017",
+    "title": "2017 Mercedes Benz GLC 220d",
+    "price": 4500000,
+    "image": "/images/newcars/benz1.jpg",
+    "additionalImages": [
+      "/images/newcars/benz2.jpg",
+      "/images/newcars/benz3.jpg",
+      "/images/newcars/benz4.jpg"
+    ],
+    "transmission": "Automatic",
+    "fuelType": "Diesel",
+    "year": 2017,
+    "mileage": 150000,
+    "description": "A luxury SUV with a powerful diesel engine and premium features.",
+    "features": [
+      "Thumbstart Ignition",
+      "Parking Sensors",
+      "Keyless Entry",
+      "Fog Lights",
+      "Bluetooth Car Kit",
+      "Alloy Wheels",
+      "Power Windows",
+      "Panoramic Sunroof"
+    ],
+    "condition": "Foreign Used",
+    "specs": {
+      "Year": "2017",
+      "Make": "Mercedes Benz",
+      "Model": "GLC 220d",
+      "Body Type": "4 Wheel Drive & SUVs",
+      "Mileage": "150000",
+      "Transmission": "Automatic",
+      "Engine Size": "2200",
+      "Drive Type": "4 Wheel Drive",
+      "Fuel Type": "Diesel",
+      "Color": "Black"
+    }
+  },
+  {
+    "id": "mazda-cx5-2024",
+    "title": "Mazda CX5",
+    "price": 4500000,
+    "image": "/images/newcars/cx5.jpg",
+    "additionalImages": [],
+    "transmission": "Automatic",
+    "fuelType": "Hybrid",
+    "year": 2024,
+    "mileage": 0,
+    "description": "Brand new CX5 with premium features and hybrid efficiency.",
+    "features": [
+      "Leather Seats",
+      "Navigation",
+      "Sunroof",
+      "Blind Spot Monitor"
+    ],
+    "condition": "New",
+    "specs": {
+      "Year": "2024",
+      "Make": "Mazda",
+      "Model": "CX5",
+      "Body Type": "SUV",
+      "Mileage": "0",
+      "Transmission": "Automatic",
+      "Engine Size": "Hybrid",
+      "Drive Type": "AWD",
+      "Fuel Type": "Hybrid",
+      "Color": "White"
+    }
+  }
+]
