@@ -214,7 +214,86 @@
       "Air Conditioning"
     ],
     "description": "Well-maintained 2014 Toyota Vitz with low mileage, accident-free, and original paint. Comes with new tyres and ready documents. Cash, trade-in, and bank financing accepted with only 299k deposit."
+  },
+
+  {
+    "id": "toyota-vitz-2012",
+    "title": "Toyota Vitz",
+    "price": 670000,
+    "deposit": 0,
+    "image": "/images/usedcars/kcs1.png",
+    "additionalImages": [
+      "/images/usedcars/kcs2.png",
+      "/images/usedcars/kcs3.png",
+      "/images/usedcars/kcs4.png",
+      "/images/usedcars/kcs5.png",
+      "/images/usedcars/kcs6.png",
+      "/images/usedcars/kcs7.png",
+      "/images/usedcars/kcs8.png",
+      "/images/usedcars/kcs9.png",
+      "/images/usedcars/kcs10.png"
+    ],
+    "year": 2012,
+    "make": "Toyota",
+    "model": "Vitz",
+    "bodyType": "Hatchback",
+    "mileage": 0,
+    "transmission": "Automatic",
+    "condition": "Used",
+    "engineSize": "1300",
+    "driveType": "2WD",
+    "fuelType": "Petrol",
+    "color": "Silver",
+    "features": [
+      "Power Windows",
+      "Air Conditioning",
+      "Compact Size",
+      "Fuel Efficient"
+    ],
+    "description": "Toyota Vitz 2012 model with 1300cc engine. Clean unit, ready to drive. Ideal for town errands and fuel efficiency. Well priced at Ksh 670,000."
   }
+  ,{
+    "id": "volkswagen-golf-tsi-2015",
+    "title": "Volkswagen Golf TSI",
+    "price": 1480000,
+    "deposit": 0,
+    "image": "/images/usedcars/tsi1.png",
+    "additionalImages": [
+      "/images/usedcars/tsi2.png",
+      "/images/usedcars/tsi3.png",
+      "/images/usedcars/tsi4.png",
+      "/images/usedcars/tsi5.png",
+      "/images/usedcars/tsi6.png",
+      "/images/usedcars/tsi7.png",
+      "/images/usedcars/tsi8.png",
+      "/images/usedcars/tsi9.png",
+      "/images/usedcars/tsi10.png",
+      "/images/usedcars/tsi1.png"
+    ],
+    "year": 2015,
+    "make": "Volkswagen",
+    "model": "Golf TSI",
+    "bodyType": "Hatchback",
+    "mileage": 0,
+    "transmission": "Automatic",
+    "condition": "Used",
+    "engineSize": "1400",
+    "driveType": "2WD",
+    "fuelType": "Petrol",
+    "color": "Silver",
+    "features": [
+      "Daytime Running Lights",
+      "Lane Assist",
+      "Panoramic Sunroof",
+      "Leather Seats",
+      "Pedal Shifters",
+      "Push to Start",
+      "Original Paint",
+      "Clean Unit"
+    ],
+    "description": "2015 Volkswagen Golf TSI, 1400cc turbocharged engine. Clean unit with original paint, panoramic sunroof, lane assist, leather seats, pedal shifters, and push-to-start. Cash payments, trade-ins, and bank financing available."
+  }
+  
   
   
   
