@@ -57,21 +57,22 @@ export default function Hero() {
           <div className="flex flex-row flex-wrap gap-3 sm:gap-4">
             <Link
               to="/new-cars"
-              className="flex-1 sm:flex-none px-4 sm:px-6 py-3 sm:py-4 bg-[#4A90A4] text-white rounded-lg font-medium hover:bg-[#4A90A4]/90 transition-colors text-sm sm:text-base text-center"
+              className="w-auto px-3 sm:px-4 py-2 sm:py-3 bg-[#4A90A4] text-white rounded-tl-[50px] rounded-tr-none rounded-br-[50px] rounded-bl-none font-medium hover:bg-[#4A90A4]/90 transition-colors text-xs sm:text-sm text-center"
             >
               Browse New Cars
             </Link>
             <Link
               to="/used-cars"
-              className="flex-1 sm:flex-none px-4 sm:px-6 py-3 sm:py-4 bg-[#bd922f] text-white rounded-lg font-medium hover:bg-[#F5D58B]/90 transition-colors text-sm sm:text-base text-center"
+              className="w-auto px-3 sm:px-4 py-2 sm:py-3 bg-[#bd922f] text-white rounded-tl-[50px] rounded-tr-none rounded-br-[50px] rounded-bl-none font-medium hover:bg-[#F5D58B]/90 transition-colors text-xs sm:text-sm text-center"
             >
               View Used Cars
             </Link>
             <Link
               to="/all-cars"
-              className="flex-1 sm:flex-none px-4 sm:px-6 py-3 sm:py-4 bg-gradient-to-r from-[#4A90A4] to-[#bd922f] text-white rounded-lg font-medium hover:opacity-90 transition-opacity text-sm sm:text-base text-center"
+              className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-r from-[#4A90A4] to-[#bd922f] text-white hover:opacity-90 transition-opacity duration-300 shadow-lg"
+              title="View All"
             >
-              View All
+              <span className="text-xs sm:text-sm font-medium">All</span>
             </Link>
           </div>
         </div>
