@@ -21,35 +21,146 @@
     ],
     "condition": "Used"
   },
+
+
   {
-    "id": 1744236911627,
-    "year": "2000",
-    "make": "lambo",
-    "model": "lambo",
-    "bodyType": "big",
-    "mileage": "20022",
-    "transmission": "manual",
-    "condition": "used",
-    "engineSize": "2000",
-    "driveType": "manual",
-    "fuelType": "petrol",
-    "color": "black",
-    "specs": {
-      "Year": "2000",
-      "Make": "lambo",
-      "Model": "lambo",
-      "Body Type": "big",
-      "Mileage": "20022",
-      "Transmission": "manual",
-      "Condition": "used",
-      "Engine Size": "2000",
-      "Drive Type": "manual",
-      "Fuel Type": "petrol",
-      "Color": "black"
-    },
-    "features": [
-      "none"
+    "id": "toyota-vitz-kcv",
+    "title": "Toyota Vitz",
+    "price": 650000 ,
+    "deposit": 200000,
+    "image": "/images/usedcars/kcv1.png",
+    "additionalImages": [
+      "/images/usedcars/kcv2.png",
+      "/images/usedcars/kcv3.png",
+      "/images/usedcars/kcv4.png",
+      "/images/usedcars/kcv5.png",
+      "/images/usedcars/kcv6.png",
+      "/images/usedcars/kcv7.png",
+      "/images/usedcars/kcv8.png",
+      "/images/usedcars/kcv9.png",
+      "/images/usedcars/kcv10.png"
     ],
-    "image": "/images/usedcars/264176ade125e2fd008aa52fa2a576e7"
+    "year": 2014,
+    "make": "Toyota",
+    "model": "Vitz",
+    "bodyType": "Hatchback",
+    "mileage": 78000,
+    "transmission": "Automatic",
+    "condition": "Used",
+    "engineSize": "1300",
+    "driveType": "2WD",
+    "fuelType": "Petrol",
+    "color": "Silver",
+    "features": [
+      "Power Windows",
+      "Bluetooth Audio",
+      "Air Conditioning",
+      "Alloy Wheels",
+      "Reverse Camera"
+    ],
+    "description": "A compact and fuel-efficient hatchback, ideal for city driving with low maintenance cost."
+  },
+  {
+    "id": "mercedes-e200-2010",
+    "title": "Mercedes Benz E200",
+    "price": 2650000,
+    "image": "/images/usedcars/kcm1.png",
+    "additionalImages": [
+      "/images/usedcars/kcm2.png",
+      "/images/usedcars/kcm3.png",
+      "/images/usedcars/kcm4.png",
+      "/images/usedcars/kcm5.png",
+      "/images/usedcars/kcm6.png"
+    ],
+    "year": 2010,
+    "make": "Mercedes Benz",
+    "model": "E200",
+    "bodyType": "Sedan",
+    "mileage": 0,
+    "transmission": "Automatic",
+    "condition": "Used",
+    "engineSize": "1800",
+    "driveType": "2WD",
+    "fuelType": "Petrol",
+    "color": "Maroon",
+    "features": [
+      "Leather Interior",
+      "Heated Seats",
+      "Sunroof"
+    ],
+    "description": "Luxury sedan with premium features including leather interior, sunroof, and heated seats. Smooth ride and elegant design."
+  },
+  {
+    "id": "toyota-crown-athelette-2016",
+    "title": "Toyota Crown Athelette",
+    "price": 1900000,
+    "deposit": 0,
+    "image": "/images/usedcars/kdp1.png",
+    "additionalImages": [
+      "/images/usedcars/kdp2.png",
+      "/images/usedcars/kdp3.png",
+      "/images/usedcars/kdp4.png",
+      "/images/usedcars/kdp5.png",
+      "/images/usedcars/kdp6.png",
+      "/images/usedcars/kdp7.png"
+    ],
+    "year": 2016,
+    "make": "Toyota",
+    "model": "Crown Athelette",
+    "bodyType": "Sedan",
+    "mileage": 0,
+    "transmission": "Automatic",
+    "condition": "Used",
+    "engineSize": "2500",
+    "driveType": "2WD",
+    "fuelType": "Petrol",
+    "color": "White",
+    "features": [
+      "Leather Interior",
+      "Heated Seats",
+      "Sunroof",
+      "Navigation System"
+    ],
+    "description": "Luxury sedan with a powerful 2500cc engine. Features premium interior and modern technology. Price negotiable, trade-in and bank finance accepted."
+  },
+  {
+    "id": "honda-fit-2015",
+    "title": "Honda Fit",
+    "price": 950000,
+    "deposit": 0,
+    "image": "/images/usedcars/kdd1.png",
+    "additionalImages": [
+      "/images/usedcars/kdd2.png",
+      "/images/usedcars/kdd3.png",
+      "/images/usedcars/kdd4.png",
+      "/images/usedcars/kdd5.png",
+      "/images/usedcars/kdd6.png",
+      "/images/usedcars/kdd7.png",
+      "/images/usedcars/kdd8.png",
+      "/images/usedcars/kdd9.png",
+      "/images/usedcars/kdd10.png"
+    ],
+    "year": 2015,
+    "make": "Honda",
+    "model": "Fit",
+    "bodyType": "Hatchback",
+    "mileage": 0,
+    "transmission": "Automatic",
+    "condition": "Used",
+    "engineSize": "1300",
+    "driveType": "2WD",
+    "fuelType": "Petrol",
+    "color": "Silver",
+    "features": [
+      "Air Conditioning",
+      "Power Windows",
+      "Reverse Camera",
+      "Bluetooth Audio"
+    ],
+    "description": "Reliable and fuel-efficient non-hybrid Honda Fit. Financing can be organized and trade-ins are accepted. A great daily driver with modern features."
   }
+  
+  
+  
+  
 ]

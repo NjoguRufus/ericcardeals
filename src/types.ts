@@ -6,6 +6,7 @@ export interface Car {
   image: string;
   title: string;
   price: number;
+  deposit :number
   transmission: string;
   fuelType: string;
   year: number;

@@ -1,72 +1,135 @@
 [
   {
-    "id": "benz-glc220d-2017",
-    "title": "2017 Mercedes Benz GLC 220d",
-    "price": 4500000,
-    "image": "/images/newcars/benz1.jpg",
+    "id": "mercedes-benz-gle350d-2017",
+    "title": "2017 Mercedes Benz GLE 350d",
+    "price": 9999999,
+    "image": "/images/newcars/gle1.png",
     "additionalImages": [
-      "/images/newcars/benz2.jpg",
-      "/images/newcars/benz3.jpg",
-      "/images/newcars/benz4.jpg"
+      "/images/newcars/gle2.png",
+      "/images/newcars/gle3.png",
+      "/images/newcars/gle4.png",
+      "/images/newcars/gle5.png",
+      "/images/newcars/gle6.png"
     ],
     "transmission": "Automatic",
     "fuelType": "Diesel",
     "year": 2017,
-    "mileage": 150000,
-    "description": "A luxury SUV with a powerful diesel engine and premium features.",
+    "mileage": 0,
+    "description": "A luxury SUV with a powerful 2980cc diesel engine, blending performance and comfort for the discerning driver.",
     "features": [
-      "Thumbstart Ignition",
-      "Parking Sensors",
+      "Panoramic Sunroof",
+      "Leather Seats",
       "Keyless Entry",
-      "Fog Lights",
-      "Bluetooth Car Kit",
-      "Alloy Wheels",
-      "Power Windows",
-      "Panoramic Sunroof"
+      "360-degree Camera",
+      "Air Suspension",
+      "Bluetooth Connectivity",
+      "Cruise Control",
+      "LED Headlights"
     ],
-    "condition": "Foreign Used",
+    "condition": "New",
     "specs": {
       "Year": "2017",
       "Make": "Mercedes Benz",
-      "Model": "GLC 220d",
-      "Body Type": "4 Wheel Drive & SUVs",
-      "Mileage": "150000",
+      "Model": "GLE 350d",
+      "Body Type": "SUV",
+      "Mileage": "0",
       "Transmission": "Automatic",
-      "Engine Size": "2200",
-      "Drive Type": "4 Wheel Drive",
+      "Engine Size": "2980",
+      "Drive Type": "AWD",
       "Fuel Type": "Diesel",
       "Color": "Black"
     }
   },
+  
+
   {
-    "id": "mazda-cx5-2024",
-    "title": "Mazda CX5",
-    "price": 4500000,
-    "image": "/images/newcars/cx5.jpg",
-    "additionalImages": [],
-    "transmission": "Automatic",
-    "fuelType": "Hybrid",
-    "year": 2024,
-    "mileage": 0,
-    "description": "Brand new CX5 with premium features and hybrid efficiency.",
-    "features": [
-      "Leather Seats",
-      "Navigation",
-      "Sunroof",
-      "Blind Spot Monitor"
+    "id": "toyota-landcruiser-tx-2018",
+    "title": "2018 Toyota LandCruiser TX",
+    "price": 7200000,
+    "image": "/images/newcars/tx1.png",
+    "additionalImages": [
+      "/images/newcars/tx2.png",
+      "/images/newcars/tx3.png",
+      "/images/newcars/tx5.png",
+      "/images/newcars/tx6.png",
+      "/images/newcars/tx8.png",
+      "/images/newcars/tx9.png",
+      "/images/newcars/tx10.png",
+      "/images/newcars/tx10.png"
     ],
-    "condition": "New",
+    "transmission": "Automatic",
+    "fuelType": "Petrol",
+    "year": 2018,
+    "mileage": 0,
+    "description": "A powerful and rugged SUV built for both city luxury and off-road performance. Unregistered and ready for first-time use.",
+    "features": [
+      "Cruise Control",
+      "Reverse Camera",
+      "Keyless Entry",
+      "Touchscreen Display",
+      "Four-Wheel Drive",
+      "Fog Lights",
+      "Alloy Wheels",
+      "Automatic Climate Control"
+    ],
+    "condition": "Unregistered",
     "specs": {
-      "Year": "2024",
-      "Make": "Mazda",
-      "Model": "CX5",
+      "Year": "2018",
+      "Make": "Toyota",
+      "Model": "LandCruiser TX",
       "Body Type": "SUV",
       "Mileage": "0",
       "Transmission": "Automatic",
-      "Engine Size": "Hybrid",
-      "Drive Type": "AWD",
-      "Fuel Type": "Hybrid",
+      "Engine Size": "2700",
+      "Drive Type": "4 Wheel Drive",
+      "Fuel Type": "Petrol",
       "Color": "White"
     }
+  },
+
+  {
+    "id": "toyota-esquire-2017",
+    "title": "2017 Toyota Esquire",
+    "price": 2500000,
+    "image": "/images/newcars/esq1.png",
+    "additionalImages": [
+      "/images/newcars/esq2.png",
+      "/images/newcars/esq3.png",
+      "/images/newcars/esq4.png",
+      "/images/newcars/esq5.png",
+      "/images/newcars/esq6.png",
+      "/images/newcars/esq7.png",
+      "/images/newcars/esq8.png"
+    ],
+    "transmission": "Automatic",
+    "fuelType": "Non-Hybrid",
+    "year": 2017,
+    "mileage": 0,
+    "description": "A spacious and comfortable family car with a 2700cc engine, foreign used and unregistered, ready for the road.",
+    "features": [
+      "Power Sliding Doors",
+      "Keyless Entry",
+      "Bluetooth Connectivity",
+      "Rearview Camera",
+      "Fog Lights",
+      "Automatic Climate Control",
+      "Alloy Wheels",
+      "Parking Sensors"
+    ],
+    "condition": "Unregistered",
+    "specs": {
+      "Year": "2017",
+      "Make": "Toyota",
+      "Model": "Esquire",
+      "Body Type": "MPV",
+      "Mileage": "0",
+      "Transmission": "Automatic",
+      "engineSize": "2700",
+      "Drive Type": "AWD",
+      "Fuel Type": "Non-Hybrid",
+      "Color": "Blackish"
+    }
   }
+  
+  
 ]
