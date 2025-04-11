@@ -30,6 +30,44 @@
     ],
     "description": "Luxury sedan with premium features including leather interior, sunroof, and heated seats. Smooth ride and elegant design."
   },
+
+  {
+    "id": "mercedes-benz-c200-2009",
+    "title": "Mercedes Benz C200",
+    "price": 1499000,
+    "deposit": 0,
+    "image": "/images/usedcars/kcg1.png",
+    "additionalImages": [
+      "/images/usedcars/kcg2.png",
+      "/images/usedcars/kcg3.png",
+      "/images/usedcars/kcg4.png",
+      "/images/usedcars/kcg5.png",
+      "/images/usedcars/kcg6.png",
+      "/images/usedcars/kcg7.png",
+      "/images/usedcars/kcg8.png",
+      "/images/usedcars/kcg9.png",
+      "/images/usedcars/kcg10.png"
+    ],
+    "year": 2009,
+    "make": "Mercedes Benz",
+    "model": "C200",
+    "bodyType": "Sedan",
+    "mileage": 0,
+    "transmission": "Automatic",
+    "condition": "Used",
+    "engineSize": "1800",
+    "driveType": "2WD",
+    "fuelType": "Petrol",
+    "color": "Silver",
+    "features": [
+      "Clean Unit",
+      "Sunroof",
+      "Accident Free",
+      "Finance Arranged"
+    ],
+    "description": "2009 Mercedes Benz C200, 1800cc engine, accident-free and clean unit. Comes with sunroof and finance arrangements available. Priced at Ksh 1.499M."
+  }
+  ,
   {
     "id": "toyota-crown-athelette-2016",
     "title": "Toyota Crown Athelette",
@@ -63,6 +101,42 @@
     ],
     "description": "Luxury sedan with a powerful 2500cc engine. Features premium interior and modern technology. Price negotiable, trade-in and bank finance accepted."
   },
+
+  {
+    "id": "mazda-cx5-2013",
+    "title": "Mazda CX-5",
+    "price": 1500000,
+    "deposit": 0,
+    "image": "/images/usedcars/cx51.jpg",
+    "additionalImages": [
+      "/images/usedcars/cx52.jpg",
+      "/images/usedcars/cx53.jpg",
+      "/images/usedcars/cx54.jpg",
+      "/images/usedcars/cx55.jpg",
+      "/images/usedcars/cx56.jpg",
+      "/images/usedcars/cx57.jpg",
+      "/images/usedcars/cx58.jpg",
+      "/images/usedcars/cx59.jpg"
+    ],
+    "year": 2013,
+    "make": "Mazda",
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "mileage": 0,
+    "transmission": "Automatic",
+    "condition": "Used",
+    "engineSize": "1500",
+    "driveType": "2WD",
+    "fuelType": "Petrol",
+    "color": "Silver",
+    "features": [
+      "Cash Accepted",
+      "Trade-In Accepted",
+      "Financing Available"
+    ],
+    "description": "2013 Mazda CX-5, 1500cc SUV in excellent condition. Cash, trade-in, and flexible financing options available. A great daily driver with fuel efficiency and sleek design."
+  },
+  
   {
     "id": "honda-fit-2015",
     "title": "Honda Fit",
@@ -292,11 +366,312 @@
       "Clean Unit"
     ],
     "description": "2015 Volkswagen Golf TSI, 1400cc turbocharged engine. Clean unit with original paint, panoramic sunroof, lane assist, leather seats, pedal shifters, and push-to-start. Cash payments, trade-ins, and bank financing available."
+  },
+
+  {
+    "id": "subaru-forester-sgh-2007",
+    "title": "Subaru Forester SGH",
+    "price": 999000,
+    "deposit": 0,
+    "image": "/images/usedcars/sgh1.jpg",
+    "additionalImages": [
+      "/images/usedcars/sgh2.jpg",
+      "/images/usedcars/sgh3.jpg",
+      "/images/usedcars/sgh4.jpg",
+      "/images/usedcars/sgh5.jpg",
+      "/images/usedcars/sgh6.jpg",
+      "/images/usedcars/sgh7.jpg",
+      "/images/usedcars/sgh8.jpg",
+      "/images/usedcars/sgh9.jpg"
+    ],
+    "year": 2007,
+    "make": "Subaru",
+    "model": "Forester SGH",
+    "bodyType": "SUV",
+    "mileage": 0,
+    "transmission": "Automatic",
+    "condition": "Used",
+    "engineSize": "2000",
+    "driveType": "AWD",
+    "fuelType": "Petrol",
+    "color": "Silver",
+    "features": [
+      "Sunroof",
+      "Upgraded Beige Interior",
+      "Buy and Drive",
+      "No Faults"
+    ],
+    "description": "2007 Subaru Forester SGH – 2.0cc AWD, clean and well maintained. Comes with a sunroof, upgraded beige interior, and ready for the road. Buy and drive — no faults, just smooth performance."
+  },
+  
+
+  {
+    "id": "suzuki-swift-sport-2015",
+    "title": "Suzuki Swift Sport",
+    "price": 950000,
+    "deposit": 0,
+    "image": "/images/usedcars/swift1.jpg",
+    "additionalImages": [
+      "/images/usedcars/swift2.jpg",
+      "/images/usedcars/swift3.jpg",
+      "/images/usedcars/swift4.jpg",
+      "/images/usedcars/swift5.jpg",
+      "/images/usedcars/swift6.jpg",
+      "/images/usedcars/swift7.jpg",
+      "/images/usedcars/swift8.jpg",
+      "/images/usedcars/swift9.jpg",
+      "/images/usedcars/swift10.jpg"
+    ],
+    "year": 2015,
+    "make": "Suzuki",
+    "model": "Swift Sport",
+    "bodyType": "Hatchback",
+    "mileage": 0,
+    "transmission": "Semi-Automatic",
+    "condition": "Used",
+    "engineSize": "1500",
+    "driveType": "2WD",
+    "fuelType": "Petrol",
+    "color": "Pearl White",
+    "features": [
+      "Push to Start",
+      "Keyless Entry",
+      "Tiptronic Paddle Shifters",
+      "Fog Lights",
+      "Winker Mirrors",
+      "32-inch Infotainment Screen",
+      "360 Degree Camera",
+      "Aftermarket Pioneer Audio",
+      "Rear 10-inch Entertainment Screens",
+      "Low Profile Original Towers",
+      "Up to 240 km/h Speedometer",
+      "No Accidents",
+      "Cash Accepted",
+      "Bank Finance",
+      "Sacco Finance",
+      "Microfinance Options"
+    ],
+    "description": "🔥 Quick Sale!! 🔥 2015 Suzuki Swift Sport in pearl white. 1500cc, semi-automatic with tiptronic paddle shifters, 240km/h speedometer, push-to-start, and 360° camera. Loaded with extras like 32” infotainment screen, Pioneer audio, rear 10” screens, winker mirrors, and aftermarket towers. Accident-free and financing options available (cash, bank, Sacco, microfinance)."
+  },
+
+  {
+    "id": "subaru-wrx-sti-2011",
+    "title": "Subaru Impreza WRX STI",
+    "price": 1650000,
+    "deposit": 0,
+    "image": "/images/usedcars/wrx1.jpg",
+    "additionalImages": [
+      "/images/usedcars/wrx2.jpg",
+      "/images/usedcars/wrx3.jpg",
+      "/images/usedcars/wrx4.jpg",
+      "/images/usedcars/wrx5.jpg",
+      "/images/usedcars/wrx6.jpg",
+      "/images/usedcars/wrx7.jpg",
+      "/images/usedcars/wrx8.jpg",
+      "/images/usedcars/wrx9.jpg",
+      "/images/usedcars/wrx10.jpg",
+      "/images/usedcars/wrx11.jpg"
+    ],
+    "year": 2011,
+    "make": "Subaru",
+    "model": "Impreza WRX STI",
+    "bodyType": "Sedan",
+    "mileage": 0,
+    "transmission": "6-Speed Automatic",
+    "condition": "Used",
+    "engineSize": "2500",
+    "driveType": "AWD",
+    "fuelType": "Petrol",
+    "color": "Blue",
+    "features": [
+      "SI-DRIVE",
+      "Bucket Leather Seats",
+      "Pedal Shifters",
+      "Cruise Control",
+      "Heated Seats",
+      "Push to Start",
+      "Super Sport Antilock Braking System"
+    ],
+    "description": "2011 Subaru WRX STI – Performance meets comfort. Equipped with 2500cc turbo engine, SI-DRIVE, 6-speed automatic transmission, bucket leather seats, and top-tier safety features. A true beast for enthusiasts."
+  },
+  
+  
+  {
+    "id": "nissan-cube-2013",
+    "title": "Nissan Cube",
+    "price": 520000,
+    "deposit": 0,
+    "image": "/images/usedcars/kcz1.png",
+    "additionalImages": [
+      "/images/usedcars/kcz2.png",
+      "/images/usedcars/kcz3.png",
+      "/images/usedcars/kcz4.png",
+      "/images/usedcars/kcz5.png",
+      "/images/usedcars/kcz6.png",
+      "/images/usedcars/kcz7.png",
+      "/images/usedcars/kcz8.png"
+    ],
+    "year": 2013,
+    "make": "Nissan",
+    "model": "Cube",
+    "bodyType": "Hatchback",
+    "mileage": 0,
+    "transmission": "Automatic",
+    "condition": "Used",
+    "engineSize": "1500",
+    "driveType": "2WD",
+    "fuelType": "Petrol",
+    "color": "Grey",
+    "features": [
+      "Buy and Drive",
+      "Ready Documents",
+      "Discounted Price"
+    ],
+    "description": "2013 Nissan Cube, 1500cc, now going for Ksh 520,000 down from 600,000. Buy and drive unit with ready documents. Ideal for city use with excellent fuel economy."
+  },  {
+    "id": "subaru-pleo-2017",
+    "title": "Subaru Pleo",
+    "price": 750000,
+    "deposit": 250000,
+    "image": "/images/usedcars/pleo1.jpg",
+    "additionalImages": [
+      "/images/usedcars/pleo2.jpg",
+      "/images/usedcars/pleo3.jpg",
+      "/images/usedcars/pleo4.jpg",
+      "/images/usedcars/pleo5.jpg",
+      "/images/usedcars/pleo6.jpg",
+      "/images/usedcars/pleo7.jpg",
+      "/images/usedcars/pleo8.jpg"
+    ],
+    "year": 2017,
+    "make": "Subaru",
+    "model": "Pleo",
+    "bodyType": "Hatchback",
+    "mileage": 0,
+    "transmission": "Automatic",
+    "condition": "Used",
+    "engineSize": "650",
+    "driveType": "2WD",
+    "fuelType": "Petrol",
+    "color": "White",
+    "features": [
+      "New Tyres",
+      "Ready Documents",
+      "Buy and Drive",
+      "Pay as You Drive",
+      "Cash Accepted",
+      "Trade-In Accepted",
+      "Financing Available"
+    ],
+    "description": "2017 Subaru Pleo – 650cc compact car perfect for city driving. Comes with new tyres and ready documents. Buy and drive. Deposit of 250k with pay-as-you-drive financing available. Clean unit, well-maintained."
+  }, 
+
+  {
+    "id": "toyota-vitz-rs-manual",
+    "title": "Toyota Vitz RS Sport",
+    "price": 780000,
+    "deposit": 0,
+    "image": "/images/usedcars/rs1.jpg",
+    "additionalImages": [
+      "/images/usedcars/rs2.jpg",
+      "/images/usedcars/rs3.jpg",
+      "/images/usedcars/rs4.jpg",
+      "/images/usedcars/rs5.jpg",
+      "/images/usedcars/rs6.jpg",
+      "/images/usedcars/rs7.jpg",
+      "/images/usedcars/rs8.jpg"
+    ],
+    "year": null,
+    "make": "Toyota",
+    "model": "Vitz RS",
+    "bodyType": "Hatchback",
+    "mileage": 0,
+    "transmission": "Manual",
+    "condition": "Used",
+    "engineSize": "1500",
+    "driveType": "2WD",
+    "fuelType": "Petrol",
+    "color": "White",
+    "features": [
+      "Fully Loaded",
+      "New Tyres",
+      "Buy and Drive"
+    ],
+    "description": "Toyota Vitz RS Sport – 1500cc manual transmission. Fully loaded unit with new tyres and a sporty look. Buy and drive, no issues, ready for the road."
+  },
+
+  {
+    "id": "mitsubishi-mirage-2014",
+    "title": "Mitsubishi Mirage",
+    "price": 599000,
+    "deposit": 0,
+    "image": "/images/usedcars/mirage1.jpg",
+    "additionalImages": [
+      "/images/usedcars/mirage2.jpg",
+      "/images/usedcars/mirage3.jpg",
+      "/images/usedcars/mirage4.jpg",
+      "/images/usedcars/mirage5.jpg",
+      "/images/usedcars/mirage6.jpg",
+      "/images/usedcars/mirage7.jpg",
+      "/images/usedcars/mirage8.jpg"
+    ],
+    "year": 2014,
+    "make": "Mitsubishi",
+    "model": "Mirage",
+    "bodyType": "Hatchback",
+    "mileage": 0,
+    "transmission": "Automatic",
+    "condition": "Used",
+    "engineSize": "1000",
+    "driveType": "2WD",
+    "fuelType": "Petrol",
+    "color": "blue",
+    "features": [
+      "Accident Free",
+      "Low Mileage",
+      "Cash Accepted",
+      "Trade-In Accepted",
+      "Financing Available"
+    ],
+    "description": "2014 Mitsubishi Mirage – compact, fuel-efficient, and stylish. Accident free with low mileage. Cash payments, trade-ins, and flexible financing accepted. Ideal for city driving!"
+  },
+
+  {
+    "id": "nissan-b15-quick-sale",
+    "title": "Nissan B15",
+    "price": 335000,
+    "deposit": 0,
+    "image": "/images/usedcars/b51.jpg",
+    "additionalImages": [
+      "/images/usedcars/b52.jpg",
+      "/images/usedcars/b53.jpg",
+      "/images/usedcars/b54.jpg",
+      "/images/usedcars/b55.jpg",
+      "/images/usedcars/b56.jpg",
+      "/images/usedcars/b57.jpg",
+      "/images/usedcars/b58.jpg",
+      "/images/usedcars/b59.jpg"
+     
+    ],
+    "year": null,
+    "make": "Nissan",
+    "model": "B15",
+    "bodyType": "Sedan",
+    "mileage": 0,
+    "transmission": "Automatic",
+    "condition": "Used",
+    "engineSize": "1500",
+    "driveType": "2WD",
+    "fuelType": "Petrol",
+    "color": "White",
+    "features": [
+      "Accident Free",
+      "New Tyres",
+      "Buy and Drive",
+      "Quick Sale"
+    ],
+    "description": "Nissan B15 on Quick Sale – 1500cc petrol engine, accident-free with new tyres. Buy and drive immediately. Ideal for budget-conscious buyers looking for reliable transport."
   }
-  
-  
-  
-  
   
   
 ]

@@ -129,7 +129,135 @@
       "Fuel Type": "Non-Hybrid",
       "Color": "Blackish"
     }
+  },
+
+  {
+    "id": "mazda-demio-2017",
+    "title": "2017 Mazda Demio",
+    "price": 1100000,
+    "image": "/images/newcars/demio1.png",
+    "additionalImages": [
+      "/images/newcars/demio2.png",
+      "/images/newcars/demio3.png",
+      "/images/newcars/demio4.png"
+    ],
+    "transmission": "Automatic",
+    "fuelType": "Petrol",
+    "year": 2017,
+    "mileage": 0,
+    "description": "Reliable and fuel-efficient hatchback. Buy and drive — deposit from 350K. Cash, trade-in, and financing options available.",
+    "features": [
+      "Power Windows",
+      "ABS Brakes",
+      "Air Conditioning",
+      "Keyless Entry",
+      "Bluetooth Audio",
+      "Reverse Camera",
+      "Alloy Wheels",
+      "Low Fuel Consumption"
+    ],
+    "condition": "Buy and Drive",
+    "specs": {
+      "Year": "2017",
+      "Make": "Mazda",
+      "Model": "Demio",
+      "Body Type": "Hatchback",
+      "Mileage": "0",
+      "Transmission": "Automatic",
+      "Engine Size": "1300",
+      "Drive Type": "2WD",
+      "Fuel Type": "Petrol",
+      "Color": "Silver"
+    }
+  },
+
+  {
+    "id": "suzuki-spacia-2017",
+    "title": "Suzuki Spacia",
+    "price": 750000,
+    "image": "/images/newcars/spacia1.png",
+    "additionalImages": [
+      "/images/newcars/spacia2.png",
+      "/images/newcars/spacia3.png",
+      "/images/newcars/spacia4.png",
+      "/images/newcars/spacia5.png",
+      "/images/newcars/spacia6.png",
+      "/images/newcars/spacia7.png",
+      "/images/newcars/spacia8.png",
+      "/images/newcars/spacia9.png"
+    ],
+    "transmission": "Automatic",
+    "fuelType": "Petrol",
+    "year": 2017,
+    "mileage": 0,
+    "description": "Compact and fuel-efficient kei car with a 650cc engine. Deposit from KES 250K. Buy and drive with ready documents.",
+    "features": [
+      "Power Sliding Door",
+      "Keyless Start",
+      "Eco Idle System",
+      "Touch Screen Infotainment",
+      "Air Conditioning",
+      "Power Windows",
+      "Reverse Camera",
+      "Compact Size for City Driving"
+    ],
+    "condition": "Buy and Drive",
+    "specs": {
+      "Year": "2017",
+      "Make": "Suzuki",
+      "Model": "Spacia",
+      "Body Type": "Mini Van",
+      "Mileage": "0",
+      "Transmission": "Automatic",
+      "Engine Size": "650",
+      "Drive Type": "2WD",
+      "Fuel Type": "Petrol",
+      "Color": "Black"
+    }
+  },  {
+    "id": "daihatsu-mira-2017",
+    "title": "2017 Daihatsu Mira",
+    "price": 850000,
+    "image": "/images/newcars/mira1.jpg",
+    "additionalImages": [
+      "/images/newcars/mira2.jpg",
+      "/images/newcars/mira3.jpg",
+      "/images/newcars/mira4.jpg",
+      "/images/newcars/mira5.jpg",
+      "/images/newcars/mira6.jpg",
+      "/images/newcars/mira7.jpg"
+    ],
+    "transmission": "Automatic",
+    "fuelType": "Petrol",
+    "year": 2017,
+    "mileage": 35000,
+    "description": "Low mileage 2017 Daihatsu Mira. Foreign used and well-maintained. Deposit from 350K with monthly installment options available.",
+    "features": [
+      "Low Fuel Consumption",
+      "Compact and Efficient",
+      "Keyless Entry",
+      "Air Conditioning",
+      "Reverse Camera",
+      "Electric Mirrors",
+      "Power Windows",
+      "Bluetooth Connectivity"
+    ],
+    "condition": "Foreign Used",
+    "specs": {
+      "Year": "2017",
+      "Make": "Daihatsu",
+      "Model": "Mira",
+      "Body Type": "Hatchback",
+      "Mileage": "35000",
+      "Transmission": "Automatic",
+      "Engine Size": "660",
+      "Drive Type": "2WD",
+      "Fuel Type": "Petrol",
+      "Color": "Blue"
+    }
   }
+  
+  
   
   
 ]
