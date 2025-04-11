@@ -5,10 +5,8 @@ import { Search, CreditCard, RefreshCw } from 'lucide-react';
 export default function Hero() {
   const [currentBg, setCurrentBg] = useState(0);
   const backgrounds = [
-    //'https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&q=80', // Original
-    'https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80', // Dark parking lot
-    //'https://images.unsplash.com/photo-1609521263047-f8f205293f24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80', // Blue car
-    'https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1064&q=80' // Vintage teal car
+    'https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+    'https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1064&q=80'
   ];
 
   useEffect(() => {
@@ -68,6 +66,12 @@ export default function Hero() {
               className="flex-1 sm:flex-none px-4 sm:px-6 py-3 sm:py-4 bg-[#bd922f] text-white rounded-lg font-medium hover:bg-[#F5D58B]/90 transition-colors text-sm sm:text-base text-center"
             >
               View Used Cars
+            </Link>
+            <Link
+              to="/all-cars"
+              className="flex-1 sm:flex-none px-4 sm:px-6 py-3 sm:py-4 bg-gradient-to-r from-[#4A90A4] to-[#bd922f] text-white rounded-lg font-medium hover:opacity-90 transition-opacity text-sm sm:text-base text-center"
+            >
+              View All
             </Link>
           </div>
         </div>

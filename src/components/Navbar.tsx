@@ -8,6 +8,7 @@ import {
   CarTaxiFront,
   Info,
   Mail,
+  Eye, // ✅ Importing Eye icon for "View All"
 } from 'lucide-react';
 
 import logo from '../assets/logo.png'; // ✅ Adjust this path if needed
@@ -40,7 +41,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <img src={logo} alt="Logo" className="h-16 w-auto" /> {/* Further reduced logo height */}
+            <img src={logo} alt="Logo" className="h-16 w-auto" />
           </Link>
 
           {/* Desktop Menu */}
@@ -56,6 +57,10 @@ export default function Navbar() {
             <Link to="/used-cars" className={linkClass}>
               <CarTaxiFront className="h-4 w-4" />
               <span>Used</span>
+            </Link>
+            <Link to="/all-cars" className={linkClass}>
+              <Eye className="h-4 w-4" />
+              <span>View All</span>
             </Link>
             <Link to="/about" className={linkClass}>
               <Info className="h-4 w-4" />
@@ -94,6 +99,10 @@ export default function Navbar() {
             <Link to="/used-cars" className={linkClass}>
               <CarTaxiFront className="h-4 w-4" />
               <span>Used</span>
+            </Link>
+            <Link to="/view-all" className={linkClass}>
+              <Eye className="h-4 w-4" />
+              <span>View All</span>
             </Link>
             <Link to="/about" className={linkClass}>
               <Info className="h-4 w-4" />

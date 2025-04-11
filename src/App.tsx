@@ -8,7 +8,8 @@ import NewCars from './pages/NewCars';
 import UsedCars from './pages/UsedCars';
 import About from './pages/About';
 import Contact from './pages/Contact';
-import CarDetailPage from './pages/CarDetailPage'; // Import the new CarDetailPage
+import CarDetailPage from './pages/CarDetailPage';
+import ViewAllCars from './pages/ViewAllCars'; // ✅ Import "View All"
 
 function App() {
   return (
@@ -20,9 +21,10 @@ function App() {
             <Route path="/" element={<Hero />} />
             <Route path="/new-cars" element={<NewCars />} />
             <Route path="/used-cars" element={<UsedCars />} />
+            <Route path="/all-cars" element={<ViewAllCars />} /> {/* ✅ Add this route */}
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/car/:carId" element={<CarDetailPage />} /> {/* Add this route */}
+            <Route path="/car/:carId" element={<CarDetailPage />} />
           </Routes>
         </main>
         <Footer />
