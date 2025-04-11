@@ -54,57 +54,57 @@ export default function Hero() {
             Making car ownership easier and more accessible for everyone.
           </p>
           
-          <div className="flex flex-row flex-wrap gap-3 sm:gap-4">
+          <div className="flex flex-row flex-wrap gap-4 sm:gap-6">
             <Link
               to="/new-cars"
-              className="w-auto px-3 sm:px-4 py-2 sm:py-3 bg-[#4A90A4] text-white rounded-tl-[50px] rounded-tr-none rounded-br-[50px] rounded-bl-none font-medium hover:bg-[#4A90A4]/90 transition-colors text-xs sm:text-sm text-center"
+              className="w-auto px-6 py-3 bg-[#4A90A4] text-white rounded-tl-[50px] rounded-tr-none rounded-br-[50px] rounded-bl-none font-medium hover:bg-[#4A90A4]/90 transition-colors text-sm text-center"
             >
               Browse New Cars
             </Link>
             <Link
               to="/used-cars"
-              className="w-auto px-3 sm:px-4 py-2 sm:py-3 bg-[#bd922f] text-white rounded-tl-[50px] rounded-tr-none rounded-br-[50px] rounded-bl-none font-medium hover:bg-[#F5D58B]/90 transition-colors text-xs sm:text-sm text-center"
+              className="w-auto px-6 py-3 bg-[#bd922f] text-white rounded-tl-[50px] rounded-tr-none rounded-br-[50px] rounded-bl-none font-medium hover:bg-[#F5D58B]/90 transition-colors text-sm text-center"
             >
               View Used Cars
             </Link>
             <Link
               to="/all-cars"
-              className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-r from-[#4A90A4] to-[#bd922f] text-white hover:opacity-90 transition-opacity duration-300 shadow-lg"
+              className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-gradient-to-r from-[#4A90A4] to-[#bd922f] text-white hover:opacity-90 transition-opacity duration-300 shadow-lg"
               title="View All"
             >
-              <span className="text-xs sm:text-sm font-medium">All</span>
+              <span className="text-sm font-medium">All</span>
             </Link>
           </div>
         </div>
 
         {/* Features */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6 md:gap-8 mt-12 sm:mt-16">
-          <div className="bg-[#D8B980]/10 backdrop-blur-lg rounded-xl p-4 sm:p-6">
-            <Search className="h-6 sm:h-8 w-6 sm:w-8 text-[#4A90A4] mb-3 sm:mb-4" />
-            <h3 className="text-lg sm:text-xl font-semibold text-white mb-1 sm:mb-2">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 mt-12 sm:mt-16">
+          <div className="bg-[#D8B980]/10 backdrop-blur-lg rounded-xl p-6">
+            <Search className="h-8 w-8 text-[#4A90A4] mb-4" />
+            <h3 className="text-xl font-semibold text-white mb-2">
               Wide Selection
             </h3>
-            <p className="text-gray-300 text-sm sm:text-base">
+            <p className="text-gray-300 text-base">
               Browse through our extensive collection of quality new and used vehicles.
             </p>
           </div>
           
-          <div className="bg-[#D8B980]/10 backdrop-blur-lg rounded-xl p-4 sm:p-6">
-            <CreditCard className="h-6 sm:h-8 w-6 sm:w-8 text-[#4A90A4] mb-3 sm:mb-4" />
-            <h3 className="text-lg sm:text-xl font-semibold text-white mb-1 sm:mb-2">
+          <div className="bg-[#D8B980]/10 backdrop-blur-lg rounded-xl p-6">
+            <CreditCard className="h-8 w-8 text-[#4A90A4] mb-4" />
+            <h3 className="text-xl font-semibold text-white mb-2">
               Flexible Financing
             </h3>
-            <p className="text-gray-300 text-sm sm:text-base">
+            <p className="text-gray-300 text-base">
               Get approved for car financing with competitive rates and flexible terms.
             </p>
           </div>
           
-          <div className="bg-[#D8B980]/10 backdrop-blur-lg rounded-xl p-4 sm:p-6">
-            <RefreshCw className="h-6 sm:h-8 w-6 sm:w-8 text-[#4A90A4] mb-3 sm:mb-4" />
-            <h3 className="text-lg sm:text-xl font-semibold text-white mb-1 sm:mb-2">
+          <div className="bg-[#D8B980]/10 backdrop-blur-lg rounded-xl p-6">
+            <RefreshCw className="h-8 w-8 text-[#4A90A4] mb-4" />
+            <h3 className="text-xl font-semibold text-white mb-2">
               Trade-In Options
             </h3>
-            <p className="text-gray-300 text-sm sm:text-base">
+            <p className="text-gray-300 text-base">
               Trade in your current vehicle and upgrade to your dream car today.
             </p>
           </div>
