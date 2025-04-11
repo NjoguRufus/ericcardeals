@@ -100,7 +100,7 @@ export default function Navbar() {
               <CarTaxiFront className="h-4 w-4" />
               <span>Used</span>
             </Link>
-            <Link to="/view-all" className={linkClass}>
+            <Link to="/all-cars" className={linkClass}>
               <Eye className="h-4 w-4" />
               <span>View All</span>
             </Link>
