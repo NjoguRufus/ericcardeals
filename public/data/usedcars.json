@@ -1,65 +1,5 @@
 [
-  {
-    "id": "prado-tx",
-    "title": "Toyota Prado TX",
-    "price": 5000000,
-    "image": "/images/usedcars/prado-tx.jpg",
-    "additionalImages": [
-      "/images/usedcars/tx.jpg",
-      "/images/usedcars/tx2.jpg",
-      "/images/usedcars/tx3.jpg"
-    ],
-    "transmission": "Automatic",
-    "fuelType": "Diesel",
-    "year": 2020,
-    "mileage": 35000,
-    "description": "A reliable SUV with great off-road capabilities.",
-    "features": [
-      "Leather Seats",
-      "Sunroof",
-      "Bluetooth"
-    ],
-    "condition": "Used"
-  },
-
-
-  {
-    "id": "toyota-vitz-kcv",
-    "title": "Toyota Vitz",
-    "price": 650000 ,
-    "deposit": 200000,
-    "image": "/images/usedcars/kcv1.png",
-    "additionalImages": [
-      "/images/usedcars/kcv2.png",
-      "/images/usedcars/kcv3.png",
-      "/images/usedcars/kcv4.png",
-      "/images/usedcars/kcv5.png",
-      "/images/usedcars/kcv6.png",
-      "/images/usedcars/kcv7.png",
-      "/images/usedcars/kcv8.png",
-      "/images/usedcars/kcv9.png",
-      "/images/usedcars/kcv10.png"
-    ],
-    "year": 2014,
-    "make": "Toyota",
-    "model": "Vitz",
-    "bodyType": "Hatchback",
-    "mileage": 78000,
-    "transmission": "Automatic",
-    "condition": "Used",
-    "engineSize": "1300",
-    "driveType": "2WD",
-    "fuelType": "Petrol",
-    "color": "Silver",
-    "features": [
-      "Power Windows",
-      "Bluetooth Audio",
-      "Air Conditioning",
-      "Alloy Wheels",
-      "Reverse Camera"
-    ],
-    "description": "A compact and fuel-efficient hatchback, ideal for city driving with low maintenance cost."
-  },
+ 
   {
     "id": "mercedes-e200-2010",
     "title": "Mercedes Benz E200",
@@ -158,7 +98,124 @@
       "Bluetooth Audio"
     ],
     "description": "Reliable and fuel-efficient non-hybrid Honda Fit. Financing can be organized and trade-ins are accepted. A great daily driver with modern features."
+  },
+
+  
+  {
+    "id": "toyota-vitz-kcv",
+    "title": "Toyota Vitz",
+    "price": 650000 ,
+    "deposit": 200000,
+    "image": "/images/usedcars/kcv1.png",
+    "additionalImages": [
+      "/images/usedcars/kcv2.png",
+      "/images/usedcars/kcv3.png",
+      "/images/usedcars/kcv4.png",
+      "/images/usedcars/kcv5.png",
+      "/images/usedcars/kcv6.png",
+      "/images/usedcars/kcv7.png",
+      "/images/usedcars/kcv8.png",
+      "/images/usedcars/kcv9.png",
+      "/images/usedcars/kcv10.png"
+    ],
+    "year": 2014,
+    "make": "Toyota",
+    "model": "Vitz",
+    "bodyType": "Hatchback",
+    "mileage": 78000,
+    "transmission": "Automatic",
+    "condition": "Used",
+    "engineSize": "1300",
+    "driveType": "2WD",
+    "fuelType": "Petrol",
+    "color": "Silver",
+    "features": [
+      "Power Windows",
+      "Bluetooth Audio",
+      "Air Conditioning",
+      "Alloy Wheels",
+      "Reverse Camera"
+    ],
+    "description": "A compact and fuel-efficient hatchback, ideal for city driving with low maintenance cost."
+  },
+
+  {
+    "id": "toyota-passo-2013",
+    "title": "Toyota Passo",
+    "price": 650000,
+    "deposit": 0,
+    "image": "/images/usedcars/kdc1.jpg",
+    "additionalImages": [
+      "/images/usedcars/kdc2.jpg",
+      "/images/usedcars/kdc3.jpg",
+      "/images/usedcars/kdc4.jpg",
+      "/images/usedcars/kdc5.jpg",
+      "/images/usedcars/kdc6.jpg",
+      "/images/usedcars/kdc7.jpg",
+      "/images/usedcars/kdc8.jpg",
+      "/images/usedcars/kdc9.jpg",
+      "/images/usedcars/kdc10.jpg",
+      "/images/usedcars/kdc11.jpg"
+    ],
+    "year": 2013,
+    "make": "Toyota",
+    "model": "Passo",
+    "bodyType": "Hatchback",
+    "mileage": 0,
+    "transmission": "Automatic",
+    "condition": "Used",
+    "engineSize": "1000",
+    "driveType": "2WD",
+    "fuelType": "Petrol",
+    "color": "Maroon",
+    "features": [
+      "Power Windows",
+      "Air Conditioning",
+      "Central Locking"
+    ],
+    "description": "Buy and drive Toyota Passo with ready documents. Fuel-efficient and perfect for city use. Cash, trade-in, and financing options available."
+  },
+
+  {
+    "id": "toyota-vitz-2014",
+    "title": "Toyota Vitz",
+    "price": 799000,
+    "deposit": 299000,
+    "image": "/images/usedcars/kdb1.jpg",
+    "additionalImages": [
+      "/images/usedcars/kdb2.jpg",
+      "/images/usedcars/kdb3.jpg",
+      "/images/usedcars/kdb5.jpg",
+      "/images/usedcars/kdb6.jpg",
+      "/images/usedcars/kdb7.jpg",
+      "/images/usedcars/kdb8.jpg",
+      "/images/usedcars/kdb9.jpg",
+      "/images/usedcars/kdb10.jpg",
+      "/images/usedcars/kdb11.jpg",
+      "/images/usedcars/kdb12.jpg"
+    ],
+    "year": 2014,
+    "make": "Toyota",
+    "model": "Vitz",
+    "bodyType": "Hatchback",
+    "mileage": 0,
+    "transmission": "Automatic",
+    "condition": "Used",
+    "engineSize": "1300",
+    "driveType": "2WD",
+    "fuelType": "Petrol",
+    "color": "Silver",
+    "features": [
+      "Accident Free",
+      "Original Paint",
+      "New Tyres",
+      "Low Mileage",
+      "Power Windows",
+      "Air Conditioning"
+    ],
+    "description": "Well-maintained 2014 Toyota Vitz with low mileage, accident-free, and original paint. Comes with new tyres and ready documents. Cash, trade-in, and bank financing accepted with only 299k deposit."
   }
+  
   
   
   
