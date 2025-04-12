@@ -20,10 +20,10 @@ export default function Footer() {
           <div>
             <h3 className="text-base font-semibold mb-2">Contact Info</h3>
             <ul className="space-y-1 text-gray-400 text-xs">
-              <li>123 Car Street</li>
+              <li>Along Kagundo road Mama Lucy Gospital Junction</li>
               <li>Nairobi, Kenya</li>
               <li>Phone: +254 725 772 082</li>
-              <li>Email: info@ericcars.com</li>
+              <li>Email: erriccardeals@gmail.com</li>
             </ul>
           </div>
 
