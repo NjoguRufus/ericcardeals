@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Search, CreditCard, RefreshCw } from 'lucide-react';
+import { Search, CreditCard, RefreshCw, MapPin } from 'lucide-react';
 
 export default function Hero() {
   const [currentBg, setCurrentBg] = useState(0);
@@ -109,9 +109,21 @@ export default function Hero() {
           </div>
         </div>
       </div>
+       {/* Location Name with Icon */}
+       <div className="relative z-10 flex items-center justify-center mb-10 gap-2 text-white text-lg font-semibold">
+        <MapPin className="text-[#4A90A4] w-6 h-6" />
+        <a
+          href="https://www.google.com/maps/place/ERIC+CAR+DEALS/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:underline"
+        >
+          ERIC CAR DEALS – Nairobi, Kenya
+        </a>
+      </div>
 
-      {/* Google Map Embed - Centered and Smaller */}
-      <div className="relative z-10 mb-10 flex justify-center">
+      {/* Google Map Embed */}
+      <div className="relative z-10 mb-6 flex justify-center">
         <div className="w-[90%] max-w-2xl rounded-xl overflow-hidden shadow-lg border-4 border-[#4A90A4]">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8325204911916!2d36.8963553!3d-1.2736918999999927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f154e807f3b77%3A0x73bb07cadca7328c!2sERIC%20CAR%20DEALS!5e0!3m2!1sen!2ske!4v1744638677026!5m2!1sen!2ske"
@@ -124,6 +136,8 @@ export default function Hero() {
           ></iframe>
         </div>
       </div>
+
+     
     </div>
   );
 }
