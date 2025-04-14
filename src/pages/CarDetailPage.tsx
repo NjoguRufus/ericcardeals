@@ -29,6 +29,14 @@ const CarDetailPage = () => {
   const [showFeatures, setShowFeatures] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentImage, setCurrentImage] = useState<string>('');
+  const [formData, setFormData] = useState({
+    name: '',
+    phone: '',
+    email: '',
+    message: '',
+    car: ''
+  });
+  const [formStatus, setFormStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
 
   useEffect(() => {
     const fetchCarData = async () => {
@@ -40,6 +48,9 @@ const CarDetailPage = () => {
         const allCars = [...newCars, ...usedCars];
         const car = allCars.find((car: Car) => car.id === carId);
         setCarDetails(car || null);
+        if (car) {
+          setFormData(prev => ({ ...prev, car: car.title }));
+        }
       } catch (error) {
         console.error('Error fetching car details:', error);
       }
@@ -80,10 +91,54 @@ const CarDetailPage = () => {
     }
   };
 
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({ ...prev, [name]: value }));
+  };
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    setFormStatus('submitting');
+
+    // Format the WhatsApp message
+    const whatsappMessage = `New Car Inquiry🚗
+    
+Name: ${formData.name}
+Phone: ${formData.phone}
+Email: ${formData.email}
+Car Interested In: ${formData.car}
+
+Message:
+${formData.message}
+
+_This inquiry was sent from your website_`;
+
+    // Encode the message for URL
+    const encodedMessage = encodeURIComponent(whatsappMessage);
+    
+    // Create WhatsApp URL
+    const whatsappUrl = `https://wa.me/254725772082?text=${encodedMessage}`;
+    
+    // Open WhatsApp in a new tab
+    window.open(whatsappUrl, '_blank');
+    
+    // Reset form and show success
+    setFormStatus('success');
+    setFormData({
+      name: '',
+      phone: '',
+      email: '',
+      message: '',
+      car: formData.car
+    });
+    
+    setTimeout(() => setFormStatus('idle'), 5000);
+  };
+
   if (!carDetails) {
     return (
       <div className="min-h-screen bg-gray-900 text-white flex items-center justify-center">
-        Loading car details...
+        Loading Car Details...
       </div>
     );
   }
@@ -154,7 +209,7 @@ const CarDetailPage = () => {
             <div className="bg-gray-800 p-4 rounded-lg mb-6">
               <h3 className="text-lg font-semibold mb-3">Specifications</h3>
               <ul className="space-y-2 text-sm">
-                <li><strong>Engine:</strong> {carDetails.engineSize}cc</li>
+                <li><strong>Engine:</strong> {carDetails.engineSize}CC</li>
                 <li><strong>Transmission:</strong> {carDetails.transmission}</li>
                 <li><strong>Drive Type:</strong> {carDetails.driveType}</li>
                 <li><strong>Fuel Type:</strong> {carDetails.fuelType}</li>
@@ -180,12 +235,12 @@ const CarDetailPage = () => {
 
         {/* Contact Section */}
         <div className="w-full lg:w-1/3 bg-gray-800 rounded-lg p-6 shadow-md">
-      <div className="flex flex-col items-center">
-        <img
-          src={logo}
-          alt="Logo"
-          className="w-24 h-24 object-cover rounded-full mb-6"
-        />
+          <div className="flex flex-col items-center">
+            <img
+              src={logo}
+              alt="Logo"
+              className="w-24 h-24 object-cover rounded-full mb-6"
+            />
 
             {/* WhatsApp / Call */}
             <a
@@ -204,33 +259,62 @@ const CarDetailPage = () => {
             </a>
 
             {/* Contact Form */}
-            <form className="w-full space-y-4">
+            <form className="w-full space-y-4" onSubmit={handleSubmit}>
               <input
                 type="text"
+                name="name"
                 placeholder="Full Name"
                 className="w-full p-2 rounded-lg bg-gray-700 text-white"
+                value={formData.name}
+                onChange={handleInputChange}
+                required
               />
               <input
                 type="tel"
+                name="phone"
                 placeholder="Phone Number"
                 className="w-full p-2 rounded-lg bg-gray-700 text-white"
+                value={formData.phone}
+                onChange={handleInputChange}
+                required
               />
               <input
                 type="email"
+                name="email"
                 placeholder="Email Address"
                 className="w-full p-2 rounded-lg bg-gray-700 text-white"
+                value={formData.email}
+                onChange={handleInputChange}
+                required
               />
               <textarea
+                name="message"
                 placeholder="Message"
                 rows={4}
                 className="w-full p-2 rounded-lg bg-gray-700 text-white"
+                value={formData.message}
+                onChange={handleInputChange}
+                required
               />
-              <button
-                type="submit"
-                className="w-full bg-yellow-500 hover:bg-yellow-600 text-gray-900 py-3 px-6 rounded-lg font-medium"
-              >
-                Get in Touch
-              </button>
+              <input type="hidden" name="car" value={formData.car} />
+              
+              {formStatus === 'success' ? (
+                <div className="bg-green-500 text-white p-3 rounded-lg">
+                  Thank you! WhatsApp should open automatically. If not, please click the WhatsApp button above.
+                </div>
+              ) : formStatus === 'error' ? (
+                <div className="bg-red-500 text-white p-3 rounded-lg">
+                  Error occurred. Please try again.
+                </div>
+              ) : (
+                <button
+                  type="submit"
+                  className="w-full bg-yellow-500 hover:bg-yellow-600 text-gray-900 py-3 px-6 rounded-lg font-medium"
+                  disabled={formStatus === 'submitting'}
+                >
+                  {formStatus === 'submitting' ? 'Opening WhatsApp...' : 'Get In Touch'}
+                </button>
+              )}
             </form>
           </div>
         </div>
