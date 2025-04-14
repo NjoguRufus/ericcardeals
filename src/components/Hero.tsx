@@ -10,7 +10,6 @@ export default function Hero() {
   ];
 
   useEffect(() => {
-    // Load Cinzel font from Google Fonts
     const link = document.createElement('link');
     link.href = 'https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap';
     link.rel = 'stylesheet';
@@ -18,7 +17,7 @@ export default function Hero() {
 
     const interval = setInterval(() => {
       setCurrentBg(prev => (prev + 1) % backgrounds.length);
-    }, 5000); // Rotate every 5 seconds
+    }, 5000);
 
     return () => {
       clearInterval(interval);
@@ -30,7 +29,7 @@ export default function Hero() {
     <div className="relative min-h-screen overflow-hidden">
       {/* Background Images with Transition */}
       {backgrounds.map((bg, index) => (
-        <div 
+        <div
           key={index}
           className={`absolute inset-0 z-0 transition-opacity duration-1000 ${currentBg === index ? 'opacity-100' : 'opacity-0'}`}
           style={{
@@ -43,7 +42,7 @@ export default function Hero() {
         </div>
       ))}
 
-      {/* Content */}
+      {/* Main Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 md:pt-32 pb-16">
         <div className="max-w-3xl">
           <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-white mb-4 sm:mb-6" style={{ fontFamily: 'Cinzel, serif' }}>
@@ -53,7 +52,7 @@ export default function Hero() {
             Quality new and locally used vehicles with flexible finance options. 
             Making car ownership easier and more accessible for everyone.
           </p>
-          
+
           <div className="flex flex-row flex-wrap gap-3 sm:gap-4">
             <Link
               to="/new-cars"
@@ -88,7 +87,7 @@ export default function Hero() {
               Browse through our extensive collection of quality new and used vehicles.
             </p>
           </div>
-          
+
           <div className="bg-[#D8B980]/10 backdrop-blur-lg rounded-xl p-4 sm:p-6">
             <CreditCard className="h-6 sm:h-8 w-6 sm:w-8 text-[#4A90A4] mb-3 sm:mb-4" />
             <h3 className="text-lg sm:text-xl font-semibold text-white mb-1 sm:mb-2">
@@ -98,7 +97,7 @@ export default function Hero() {
               Get approved for car financing with competitive rates and flexible terms.
             </p>
           </div>
-          
+
           <div className="bg-[#D8B980]/10 backdrop-blur-lg rounded-xl p-4 sm:p-6">
             <RefreshCw className="h-6 sm:h-8 w-6 sm:w-8 text-[#4A90A4] mb-3 sm:mb-4" />
             <h3 className="text-lg sm:text-xl font-semibold text-white mb-1 sm:mb-2">
@@ -108,6 +107,21 @@ export default function Hero() {
               Trade in your current vehicle and upgrade to your dream car today.
             </p>
           </div>
+        </div>
+      </div>
+
+      {/* Google Map Embed - Centered and Smaller */}
+      <div className="relative z-10 mb-10 flex justify-center">
+        <div className="w-[90%] max-w-2xl rounded-xl overflow-hidden shadow-lg border-4 border-[#4A90A4]">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8325204911916!2d36.8963553!3d-1.2736918999999927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f154e807f3b77%3A0x73bb07cadca7328c!2sERIC%20CAR%20DEALS!5e0!3m2!1sen!2ske!4v1744638677026!5m2!1sen!2ske"
+            width="100%"
+            height="300"
+            style={{ border: 0 }}
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
       </div>
     </div>
