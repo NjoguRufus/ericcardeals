@@ -71,7 +71,7 @@ const ErrorScreen = () => {
           ⚠ ERROR 909 ⚠
         </h1>
         <p className="mt-4 text-xl sm:text-2xl md:text-4xl lg:text-5xl font-mono animate-pulse">
-          .ERIC CAR DEALS WEBSITE NOT PAID.
+          .ERIC CAR DEALS.
         </p>
         <p className="mt-2 text-lg sm:text-2xl md:text-3xl lg:text-4xl animate-pulse">
           CONTACT <span className="text-white">DEVELOPER</span> FOR ACTIVATION.
